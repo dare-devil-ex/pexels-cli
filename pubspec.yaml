@@ -1,0 +1,30 @@
+name: pexels_cli
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.9.0
+  google_fonts: ^7.0.2
+  http: ^1.6.0
+  path_provider:
+  provider: ^6.1.5+1
+  cached_network_image: ^3.2.3
+  smooth_page_indicator: ^2.0.1
+  video_player: ^2.10.1
+  internet_connection_checker: ^3.0.1
+  gallery_saver_plus:
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
